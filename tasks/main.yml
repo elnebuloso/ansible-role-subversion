@@ -1,9 +1,9 @@
 ---
 - name: include os variables
-  include_vars: "{{optipng_os}}.yml"
-  when: optipng_os is defined and optipng_os != ""
+  include_vars: "{{subversion_os}}.yml"
+  when: subversion_os is defined and subversion_os != ""
 
 ################################################################################################
 
-- name: install optipng
-  apt: pkg={{optipng_package}} state=present update_cache=yes cache_valid_time=3600
+- name: install subversion
+  apt: pkg={{subversion_package}} state=present update_cache=yes cache_valid_time=3600
