@@ -1,6 +1,6 @@
 # Ansible Role - subversion for Linux Server
 
-[![Build Status](https://travis-ci.org/elnebuloso/ansible-role-subversion.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-subversion)
+![abandoned](https://img.shields.io/badge/project-abandoned-red)
 
 ## Requirements
 
